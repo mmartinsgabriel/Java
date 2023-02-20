@@ -31,16 +31,3 @@ public class ContaTerminal {
 
     }
 }
-
-/*
- * Conhecer e importar a classe Scanner
- * Exibir as mensganes para o nosso usuário
- * Obter pelo scanner os valores digitados no Terminal
- * Exibir a mensagem conta criada
- * 
- * Atributo	    Tipo	Exemplo
-   Numero	    Inteiro	1021
-   Agencia	    Texto	067-8
-   Nome Cliente	Texto	MARIO ANDRADE
-   Saldo	    Decimal	237.48
- */
