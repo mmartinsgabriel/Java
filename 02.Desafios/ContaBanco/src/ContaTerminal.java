@@ -6,10 +6,10 @@ public class ContaTerminal {
         
         Scanner formularioAcesso = new Scanner(System.in).useLocale(Locale.US);
 
-      System.out.println("Digite o número de sua conta");
+      System.out.println("Digite o número de sua conta Ex: 1234");
       int numero = formularioAcesso.nextInt();
 
-      System.out.println("Digite a sua agência com dígito");
+      System.out.println("Digite a sua agência com dígito Ex: 012-3");
       String agencia = formularioAcesso.next();
 
       System.out.println("Digite o seu nome");
@@ -18,14 +18,8 @@ public class ContaTerminal {
       System.out.println("Digite o seu sobrenome");
       String sobrenomeCliente = formularioAcesso.next();
 
-      System.out.println("Digite o seu saldo");
+      System.out.println("Digite o seu saldo Ex: 100.10");
       Double saldo = formularioAcesso.nextDouble();
-
-
-        // int numero = Integer.valueOf(args[0]);
-        // String agencia = args[1];
-        // String nomeCliente = args [2];
-        // Double saldo = Double.valueOf(args[3]);
 
         System.out.println("Olá " + nomeCliente +" "+ sobrenomeCliente + ", obrigado por criar uma conta em nosso banco, sua agência é " + agencia + ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.");
 
